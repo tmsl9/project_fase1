@@ -1,6 +1,7 @@
 package edu.ufp.esof.project_fase1.models;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
@@ -10,7 +11,6 @@ public class Explicacao {
     public LocalDateTime dateBegin;
 
     public Cadeira nameCadeira;
-
     public Aluno aluno;
     public Explicador explicador;
 

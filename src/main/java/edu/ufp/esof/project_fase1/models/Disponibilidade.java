@@ -1,6 +1,7 @@
 package edu.ufp.esof.project_fase1.models;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;
